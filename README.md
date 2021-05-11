@@ -13,6 +13,10 @@ To solve this project, we opted for a Monte Carlo Tree Search algorithm. The pro
 
 When creating an agent that will play a given game it is important to consider the games complexity as well as any other constraints that may be specified. In the case of Pentago Twist, the complexity is higher and we have time and memory constraints which will affect our decision of which algorithm to use. Minmax and alpha-beta pruning algorithms are expensive and both require the use of an evaluation function which can lead to less than optimal game play if not selected properly, I thus opted for the use of Monte Carlo Tree Search (MCTS) algorithm. MCTS relies on the use of random simulations to help select a move that will lead to a favourable outcome. The use of random sim- ulations allows for less memory to be allocated to find a solution. In fact MCTS can be stopped at anytime and will always return the state that is the most favourable so far. Furthermore, MCTS uses reinforcement learning in order to assign values to states
 
+```
+GRADE: 91%
+```
+
 ## StudentPlayer.py
 
 ### chooseMove()

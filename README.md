@@ -17,7 +17,7 @@ When creating an agent that will play a given game it is important to consider t
 GRADE: 91%
 ```
 
-## StudentPlayer.py
+## StudentPlayer.java
 
 ### chooseMove()
 - When the method is called a timer is started that keep track of the time elapsed since it was called
@@ -31,7 +31,7 @@ on the first turn
  public Move chooseMove(PentagoBoardState boardState)
  ```
  
- ## Node.py
+ ## Node.java
  
  ### setChildren()
  - method used to expand a node by getting all possible moves for the node state and adds them as children making sure there are no duplicate
@@ -99,7 +99,7 @@ public void setChildren()
     }
 ```
 
-## MonteCarloTreeSearch
+## MonteCarloTreeSearch.java
 
 ### selection()
 - Get node for expansion
